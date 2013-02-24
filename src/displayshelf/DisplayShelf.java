@@ -87,6 +87,7 @@ public class DisplayShelf extends Application {
     
     private String prenom;
     private String nom;
+    private String status;
     private void init(Stage primaryStage) {
         nom="Diallo Abdourahamane";
         Group root = new Group();
