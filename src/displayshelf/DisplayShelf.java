@@ -85,7 +85,9 @@ import javafx.util.Duration;
 public class DisplayShelf extends Application {
     private static final double WIDTH = 495, HEIGHT = 300;
 
+    private String nom;
     private void init(Stage primaryStage) {
+        nom="Diallo Abdourahamane";
         Group root = new Group();
         primaryStage.setResizable(false);
         primaryStage.setScene(new Scene(root, 495,300));
